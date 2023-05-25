@@ -1,0 +1,336 @@
+/* Global */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body a button {
+  cursor: pointer;
+  
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+h4 {
+  color: #fff;
+}
+
+/* h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+  } */
+
+ul {
+  padding: 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #b3afaf;
+  background-color: transparent;
+  
+}
+
+p{
+    font-size: 16px;
+    color:gray;
+}
+
+button{
+  border:none;
+  border-radius: 5px;
+  margin:30px 0;
+}
+
+/* HEADER */
+
+/* BANNER */
+.banner {
+  background-image: url(../img/bg4.jpg);
+  background-size: cover;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:relative;
+}
+
+.banner .banner__if{
+    position:absolute;
+    top:50%;
+}
+
+
+.banner__if i {
+  color: #fff;
+}
+
+.banner__if {
+  text-align: left;
+}
+
+.banner__if ul li:hover a {
+  color: #fff;
+}
+
+.banner__if a {
+  transition: all 0.5s;
+}
+
+
+/* CONTACT */
+
+.contact {
+  margin: 80px 0;
+  padding:0 50px;
+}
+
+.contact__left {
+  padding-left: 55px;
+}
+
+.contact__left h3 {
+  font-weight: 600;
+}
+
+.contact__logo .contact__left{
+    display:flex;
+}
+
+.contact__left .contact__logo i{
+    color:#FF6E65;
+}
+
+.contact__left p a{
+    color:gray;
+    transition:all 0.5s;
+}
+
+.contact__left p a:hover{
+    color:#FF6E65;
+}
+
+
+.contact__view{
+    display:flex;
+    align-items: center;
+}
+
+.contact__left{
+    margin-right:50px;
+}
+
+.contact__viewleft .contact__item{
+    margin:30px 0;
+}
+
+.contact__map{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:5px 10px;
+    background-size: contain;
+    
+}
+
+.contact__map iframe{
+    height:450px;
+    width:650px;
+}
+
+.contact__item{
+    display:flex;
+}
+
+.contact__logo i{
+    padding-right:15px;
+}
+
+/* SERVICES */
+
+.services h3{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.services span{
+  color:#FF6E65;
+}
+
+.services__left img{
+   width:500px;
+   height:450px;
+   display:block;
+   border-radius:40px;
+}
+
+.services__right form{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services__right input{
+  padding:10px 150px 10px 10px;
+  margin:10px 60px;
+}
+
+.services__right textarea{
+  margin:10px 60px;
+  padding-right:245px;
+}
+
+.services__right button{
+  margin:10px 60px;
+  padding:20px 20px;
+  text-align: center;
+}
+
+.services__right  button{
+  background-color: #FF6E65;
+  color:white;
+  padding:15px 20px;
+  transition:all 0.5s;
+}
+
+.services__right button:hover{
+  background-color:#0d369f;
+}
+
+.services{
+  margin-bottom: 60px;
+}
+
+
+/* FOOTER */
+
+.footer__mid{
+  background-color: #060E1F;
+  padding:300px 20px 20px 20px
+}
+
+.footer__mid ul li a{
+  display:block;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition:all 0.5s;
+  color:rgba(255, 255, 255, 0.304);
+}
+
+.footer__mid ul li a:hover{
+  color:white;
+}
+
+.footer__mid h6{
+  font-size: 16px;
+  color:white;
+  font-weight:bold;
+  border-bottom:1px solid rgba(128, 128, 128, 0.621);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.footer__mid .footer__icon i{
+  color:white;
+  background-color:#060e1f3f;
+}
+
+.footer__mid .footer__icon a{
+  align-items: center;
+  display:inline-block;
+  font-size: 18px;
+  transition:all 0.5s;
+  
+}
+
+.footer__mid .footer__icon a:hover i{
+  color:#0d369f;
+}
+
+.footer__mid .footer__icon li{
+  width:30px;
+  height:30px;
+  
+  border-radius: 50px;
+  margin:0 10px;
+  line-height: 30px;
+  padding-left: 6px;
+  
+}
+
+.footer__bottom{
+  background-color: #040a17;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.footer__bottom p{
+  font-size: 15px;
+  line-height: 20px;
+  color: #a0a0a0;
+}
+
+.footer__bottom a{
+  color:white;
+  transition:all 0.5s;
+}
+
+.footer__bottom a:hover{
+  text-decoration: underline;
+}
+
+.footer__top h4{
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer__top input{
+  padding:8px 100px 8px 10px;
+  border:1px solid gray;
+  border-radius: 8px 0 0 8px;
+}
+
+.footer__top button{
+  padding:9px 10px;
+  background-color:#0d369f;
+  border:none;
+  border-radius: 0 8px 8px 0;
+  color:white;
+  font-weight:600;
+}
+
+.footer__top{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position:absolute;
+  top: -94px;
+  left: 220px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.big__house{
+  position:relative;
+  margin-top:250px;
+}
+
+
+
+
+
